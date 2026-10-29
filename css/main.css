@@ -423,7 +423,7 @@ background-size:100%; position:absolute;}
 .about_img2 {background: url(../images/about_bg_1.jpg);background-size: cover; height:500px;}
 .about_img3 {background: url(../images/bg_w_2.jpg); background-size:cover; height:auto;}
 .about_img4 {background: rgba(255,255,255,1); float:left;}
-.about_img5 {background: url(../images/bg_b_1.jpg);}
+.about_img5 {background: url(../images/bg_b_1.jpg); display: flex; flex-direction: column; align-items: center;}
 
 .about_img2 ul.icon { float:left; width:80%; margin:80px 10% 0 10%;}
 .about_img2 ul.icon li {float:left; width:28.33%; margin:0 2.5%;}
@@ -469,12 +469,13 @@ background-size:100%; position:absolute;}
 .about_img4 img{float:left; width:50%; margin:20px 0 80px 25%;}
 
 .about_img5 .title{ float:left; font-size:35px; letter-spacing:8px; margin:100px 0 10px 0; width:100%;text-align:center; }
-.about_img5 a.btn_left,
+/* .about_img5 a.btn_left, */
 .about_img5 a.btn_right{float:left; width:20%; font-size:22px; line-height:30px; color:#FFF; border:1px solid #FFF; text-align:center; letter-spacing: 2px; padding:15px 0;font-family: 'Nunito', cwTeXHei,sans-serif; }
 .about_img5 a.btn_left { margin:50px 5% 80px 24.5%; font-weight:400;}
 .about_img5 a.btn_right { margin:50px 5% 80px 5%;line-height:60px;}
 .about_img5 a.btn_left:hover,
 .about_img5 a.btn_right:hover{color:#999; border:1px solid #999; margin-top:52px; margin-bottom:78px;}
+.about_img5 a.btn_left {display:none;}
 
 /***幻視內頁***/
 .ultron_oohAD{position: relative; width: 100%;}
