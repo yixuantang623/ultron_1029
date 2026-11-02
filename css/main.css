@@ -292,10 +292,10 @@ background-size:100%; position:absolute;}
 
 /*各頁下方樣式************/
 .bottom_btn{float:left; width:100%;}
-.bottom_btn a{float:left; width:33.333%; color:rgba(255,255,255,1); font-size:30px;letter-spacing:2px; padding:11.5% 0 11.5% 0 ; text-align:center; text-shadow:0px 1px 2px #333;}
+.bottom_btn a{float:left; width:50%; color:rgba(255,255,255,1); font-size:30px;letter-spacing:2px; padding:11.5% 0 11.5% 0 ; text-align:center; text-shadow:0px 1px 2px #333;}
 .bottom_btn a.b1{ background:url(../images/main_btn_1.jpg) center no-repeat; background-size: cover;}
 .bottom_btn a.b2{ background:url(../images/main_btn_2.jpg) center no-repeat; background-size: cover;}
-.bottom_btn a.b3{ background:url(../images/main_btn_3.jpg) center no-repeat; background-size: cover;}
+.bottom_btn a.b3{ background:url(../images/main_btn_3.jpg) center no-repeat; background-size: cover; display: none;}
 .bottom_btn a.b4{ background:url(../images/main_btn_4.jpg) center no-repeat; background-size: cover;}
 .bottom_btn a h2{font-family:'Poiret One', cursive;}
 .bottom_btn a h1{ font-size:16px; letter-spacing:10px; line-height:40px;}
