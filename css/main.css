@@ -489,3 +489,15 @@ background-size:100%; position:absolute;}
         background:nth($colors, $i);
         top:($i - 1) * 100%;}
 }
+
+
+.service_img2 .title b3{
+pointer-events: none;
+}
+.service_img2 .txt bg3{
+pointer-events: none;}
+
+
+
+
+
